@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Sign Up</title>
         <meta charset="utf-8">
         <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap">
     </head>
     <body>
-        <p>Dummy content</p>
+        <script defer src="script.js"></script>
+        <div id="left">
+            <img src="./img/saksham-gangwar-YVgOh8w1R4s-unsplash.jpg" id="left-image">
+            <div id="logo-container">
+                <img src="./img/galactic-empire.jpg" id="empire-logo">
+                <div id="logo-message">Join the Empire</div>
+            </div>
+        </div>   
+        <div id="right">
+            <div id="paragraph">
+               Join the empire and bring stability to the galaxy.
+               On empire day 15 years earlier our glorius emperor palpatine
+               ended the galatic chaos of the clone wars and the tryanny of the jedi.
+               Remember all the stabiltiy which is now in your life.
+            </div>
+            <div id="phrase">
+                For the Empire! For Humanity!
+            </div>
+            <form>
+                <div id="left-inputs">
+                    <label for="first-name">First Name:</label>
+                    <input name="first-name" type="text">
+                    <label for="email">Email:</label>
+                    <input name="email" type="email">
+                    <label for="password">Password:</label>
+                    <input name="password" id="password"type="password">
+                </div>
+                <div id="right-inputs">
+                    <label for="last-name">Last Name:</label>
+                    <input name="last-name" type="text">
+                    <label for="phone-number">Phone Number:</label>
+                    <input name="phone-number" type="tel" minlength="10">
+                    <label for="password-confirm">Password Confirm:</label>
+                    <input name="password-confirm" id="password-confirm"type="password">
+                </div>
+            </form>
+            <button id="create-account">
+                Create Account
+            </button>
+            <div id="bottom-text">
+                Already have an account? <a href="index.html">Log In</a>
+            </div>
+        </div>     
     </body>
 </html>
